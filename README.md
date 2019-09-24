@@ -1,5 +1,6 @@
 # Game-of-Life
 _Javascript implementation of Conway's game of life, with Data Visualization/Analysis_
+[ONLINE VERSION HERE](file:///Users/jsw/Dropbox/programming/js/GOL/GOL.html)
 
 ![the game of life](splash.jpg)
 
