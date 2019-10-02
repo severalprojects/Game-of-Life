@@ -13,8 +13,7 @@ I am also interested in seeing what kind of 'naive' data analysis I can do on a 
 
 ## TO RUN: ##
 
-Just download the .js (2), .css (1), and .html (1) files, then open the html in your browser. _ONLINE VERSION COMING SOON_ 
-
+Just download the .js (2), .css (1), and .html (1) files, then open the html in your browser. Or just check out the [ONLINE VERSION HERE](http://www.metarecipes.com/GOL/GOL.html).
 
 ## CURRENT FEATURES:##
 *real-time tracking of density of life, area of the world untouched by life
@@ -27,6 +26,7 @@ Just download the .js (2), .css (1), and .html (1) files, then open the html in 
 ## FORTHCOMING REVISIONS:##
 *scatterplot graphing seed density vs time to stability
 *distribtuion of time to stability 
+*currently turning this into a 'networked data experiment,' ie buidling database to store data from every session run in a browser anywhere. So far so good... I've gotten js to send data to a python backend via JSON. Working locally, just dealing with my (shared) server to get some things configured...  
 
 
 
