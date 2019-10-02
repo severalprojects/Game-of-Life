@@ -24,9 +24,9 @@ Just download the .js (2), .css (1), and .html (1) files, then open the html in 
 *automatic reseeding when window resized. 
 
 ## FORTHCOMING REVISIONS:##
-*scatterplot graphing seed density vs time to stability
-*distribtuion of time to stability 
-*currently turning this into a 'networked data experiment,' ie buidling database to store data from every session run in a browser anywhere. So far so good... I've gotten js to send data to a python backend via JSON. Working locally, just dealing with my (shared) server to get some things configured...  
+* scatterplot graphing seed density vs time to stability
+* distribtuion of time to stability 
+* currently turning this into a 'networked data experiment,' ie buidling database to store data from every session run in a browser anywhere. So far so good... I've gotten js to send data to a python backend via JSON. Working locally, just dealing with my (shared) server to get some things configured...  
 
 
 
