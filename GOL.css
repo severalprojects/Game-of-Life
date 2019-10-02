@@ -58,6 +58,7 @@
 	top: 10px; 
     left: 10px; 
     overflow: hidden; 
+    
 }
 
 #data2{
@@ -73,26 +74,45 @@
 	flex-wrap: wrap;
     /* width: 200px; */
     height: 600px; 
-	top: 400px; 
+	top: 398px; 
     left: 10px; 
     overflow: hidden; 
 }
 
 #gencounter {
-    color: #2b0475;  
+    color: #2b0475; 
+    background-color: rgba(152, 200, 255, 0.7) 
 
 }
+
+.datatext {
+    color: #2b0475; 
+    background-color: rgba(152, 200, 255, 0.7) 
+}
+
+#instructions {
+        color: #2b0475; 
+        background-color: rgba(152, 200, 255, 0.7) 
+
+}
+
 #seed {
     color: #2b0475; 
+    background-color: rgba(152, 200, 255, 0.7)
 }
 
 #cdensity {
     color: #2b0475; 
+    background-color: rgba(152, 200, 255, 0.7)
 }
 
 /* #isStable {
     color: #b80303; 
 } */
+
+#isStable {
+    background-color: rgba(152, 200, 255, 0.7)
+}
 
 .stable {
     color: #2b0475;  
@@ -105,14 +125,17 @@
 
 #size {
     font-size: 9px; 
+    background-color: rgba(152, 200, 255, 0.76)
 }
 
 #gentostable {
     color: #2b0475; 
+    background-color: rgba(152, 200, 255, 0.534)
 }
 
 #periodicity {
     color: #2b0475; 
+    background-color: rgba(152, 200, 255, 0.76)
 }
 
 table {
@@ -166,6 +189,6 @@ table {
 
 .RLG_sbar {
     border-top: 1px solid black; 
-    background: #8482e9; 
+    background: rgb(152, 200, 255); 
     /* background: purple;  */
 }

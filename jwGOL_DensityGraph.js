@@ -29,9 +29,9 @@ class jwRLGraph {
         this.parent = document.getElementById(parent_container); 
         this.parent.appendChild(this.container); 
 
-    this.toggleVisible = this.toggleVisible.bind(this); 
+        this.toggleVisible = this.toggleVisible.bind(this); 
 
-    this.addData = this.addData.bind(this); 
+        this.addData = this.addData.bind(this); 
     }
 
 

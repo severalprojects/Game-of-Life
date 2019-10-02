@@ -10,6 +10,7 @@ var period = document.getElementById("periodicity");
 var stab_time = document.getElementById("gentostable"); 
 var world_size = document.getElementById("size"); 
 var worldcounter = document.getElementById("wc"); 
+var timer = null; 
 
 
 var cellheight = 10; 
@@ -414,9 +415,8 @@ window.setInterval( function(){
     // cdensity.innerHTML = `CURRENT DENSITY: ${getDensity(current).toFixed(3)}`; 
     if (worldhistory.isStable()) {
         if (became_stable == 0) {
-            became_stable = 1; 
-            worldhistory.reset(); 
-            setTimeout(function(){reseed();}, 10000);  
+            became_stable = 1;            
+            timer = setTimeout(function(){worldhistory.reset();reseed();}, 10000);  
            
         }
         
@@ -466,6 +466,9 @@ function reseed() {
     period.innerHTML = "";
     became_stable = 0; 
     current = seedLifeRandom(rows, cols);
+    if (timer) {
+        clearTimeout(timer); 
+    }
     
     
      
